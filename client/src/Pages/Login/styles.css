@@ -1,0 +1,44 @@
+.login-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container section.form {
+    width: 100%;
+    max-width: 370px;
+    margin-right: 40px;
+}
+
+.login-container section.form img {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login-container section.form form {
+    margin-top: 40px;
+}
+
+.login-container section.form h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+.login-container .login-image {
+    margin-left: 5%;
+    /*Joga a img para direita*/
+    width: 500px;
+    /*configura o tamanho da largura  da imagem*/
+    height: 500px;
+    /*configura o tamanho da comprimento  da imagem*/
+    margin-top: 1rem;
+    /*para cima ou para baixo*/
+    display: block;
+}
